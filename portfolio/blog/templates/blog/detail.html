@@ -52,7 +52,7 @@
 
 <h1 class= "text-center pt-3">{{ blog.title }}</h1>
 <p class="text-center">{{ blog.pub_date }}</p>
-<img class="img-fluid center" src="{{ blog.image.url }}" height="" width="">
+<img class="img-fluid center" src="{{ blog.image.url }}" height="450" width="450">
 <br/>
 {{blog.body}}
 </div>
@@ -60,6 +60,7 @@
 
 <footer class="text-muted">
   <div class="container text-center">
+    <p></p>
     <p>&copy; Ashutosh Kumar {% now "Y" %}</p>
   </div>
 </footer>
